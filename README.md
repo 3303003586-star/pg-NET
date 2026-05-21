@@ -1,2 +1,2 @@
-
+The download link for the feature dataset and model dataset is curl -X GET "https://datasets-server.huggingface.co/first-rows?dataset=yuyu122333%2Fdata&config=default&split=train". The loading path for the features is located on line 130 of indoor_info_loaders.py and can be modified based on your actual setup. Additionally, the sampling rate can be adjusted by modifying line 30 of the file. Lines 244–247 handle random sampling, while lines 250–278 handle remote sampling. The download link for the dataset required for training is https://ieee-dataport.org/documents/indoor-radio-map-dataset.
 
